@@ -6,7 +6,9 @@ import java.time.LocalDateTime;
 
 public class Revenue implements Serializable {
 
-    private Long id;
+    private static final long serialVersionUID = -1005657179110001946L;
+    
+	private Long id;
     private User user;
     private String  revenue;
     private String description;

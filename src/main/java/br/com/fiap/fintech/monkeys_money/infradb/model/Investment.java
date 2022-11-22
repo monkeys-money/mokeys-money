@@ -6,7 +6,9 @@ import java.time.LocalDateTime;
 
 public class Investment implements Serializable {
 
-    private Long id;
+    private static final long serialVersionUID = -8062497853938284599L;
+    
+	private Long id;
     private User user;
     private String  investment;
     private String description;

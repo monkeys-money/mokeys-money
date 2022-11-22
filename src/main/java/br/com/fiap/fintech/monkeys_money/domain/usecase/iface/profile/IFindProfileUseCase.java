@@ -1,11 +1,8 @@
 package br.com.fiap.fintech.monkeys_money.domain.usecase.iface.profile;
 
-import br.com.fiap.fintech.monkeys_money.infradb.model.Profile;
-import br.com.fiap.fintech.monkeys_money.infradb.model.Revenue;
-
-import java.util.List;
 import java.util.Map;
-import java.util.Properties;
+
+import br.com.fiap.fintech.monkeys_money.infradb.model.Profile;
 
 public interface IFindProfileUseCase {
 

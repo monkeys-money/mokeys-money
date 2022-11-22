@@ -6,7 +6,9 @@ import java.time.LocalDateTime;
 
 public class Expenditure implements Serializable {
 
-    private Long id;
+    private static final long serialVersionUID = 1272925214681280279L;
+    
+	private Long id;
     private User user;
     private String  expenditure;
     private String description;

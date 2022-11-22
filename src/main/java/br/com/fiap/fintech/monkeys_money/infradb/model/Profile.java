@@ -6,7 +6,9 @@ import java.time.LocalDateTime;
 
 public class Profile implements Serializable {
 
-    private Long id;
+    private static final long serialVersionUID = -8471117216074547058L;
+    
+	private Long id;
     private User user;
     private String firstName;
     private String middleName;

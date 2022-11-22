@@ -1,6 +1,8 @@
 package br.com.fiap.fintech.monkeys_money.domain.usecase.iface.user;
 
-public interface IDeleteUserUseCase {
+import br.com.fiap.fintech.monkeys_money.cross.crud.iface.Delete;
+import br.com.fiap.fintech.monkeys_money.infradb.model.User;
 
-    Boolean delete(final Long id);
+public interface IDeleteUserUseCase extends Delete<User> {
+
 }

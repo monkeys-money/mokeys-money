@@ -1,0 +1,20 @@
+a {
+    color: #422413;
+}
+
+a > h5 {
+    color: #422413;
+}
+
+a > h6 {
+    color: #422413;
+}
+
+a:link {
+    color: #422413;
+    text-decoration:none;
+}
+
+a:hover {
+    color: #422413;
+}

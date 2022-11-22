@@ -5,7 +5,9 @@ import java.time.LocalDateTime;
 
 public class User implements Serializable {
 
-    private Long id;
+    private static final long serialVersionUID = -4824969015223503433L;
+    
+	private Long id;
     private String password;
     private String email;
     private Boolean enabled;

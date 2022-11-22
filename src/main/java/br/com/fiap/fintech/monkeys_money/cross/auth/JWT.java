@@ -55,7 +55,6 @@ public class JWT {
 
         return SignedJWT.parse(jwt)
                 .verify(verifier);
-
     }
 
 }
